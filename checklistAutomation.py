@@ -139,8 +139,8 @@ def lambda_handler(event, context):
         os.remove(filename1)
     else:
         body = "Instance unhealthy Magma"
-        sender_email = "rahulgupta@nseit.com" 
-        receiver_email = "rahulgupta@nseit.com"
+        sender_email = "email@gmail.com" 
+        receiver_email = "emailgupta@gmail.com"
         password = ""
     
         # Create a multipart message and set headers
