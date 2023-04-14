@@ -103,8 +103,8 @@ def lambda_handler(event, context):
         workbook.save(filename1)
     
         body = "Dear Nirnoy\n \nPlease find attached Magma Channel Portal Complete Infra Report with CPU utilization Report. SSH is working.\n \nRegards \nRahul Gupta"
-        sender_email = "rahulgupta@nseit.com" 
-        receiver_email = "rahulgupta@nseit.com"
+        sender_email = "email@gmail.com" 
+        receiver_email = "email@gmail.com"
         password = ""
     
         # Create a multipart message and set headers
